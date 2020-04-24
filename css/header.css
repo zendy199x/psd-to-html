@@ -1,0 +1,29 @@
+/* **************************** */
+/* section top-bar */
+.top-bar {
+	padding: 1rem 0;
+	background-color: #FE2A6B;
+}
+
+/* social list */
+.top-bar__social-list {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+
+	list-style-type: none;
+}
+.top-bar__social-list > li {
+	margin-right: 1rem;
+}
+.top-bar__social-list > li > a {
+	color: white;
+}
+
+/* links */
+.top-bar__links > a,
+.top-bar__links > span {
+	color: white;
+}
